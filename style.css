@@ -157,7 +157,7 @@ header {
   margin-top: 30px;
 }
 
-.nav__list:hover, .nav__list:focus {
+.nav__item:hover, .nav__item:focus {
   opacity: .6;
 }
 
