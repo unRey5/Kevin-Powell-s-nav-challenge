@@ -135,6 +135,14 @@ header {
     color: #fff;
 }
 
+.nav__list .nav__link--button {
+  color: #136c72;
+  background: #fff;
+  font-weight: 600;
+  border-radius: 2rem;
+  padding: 5px 20px;
+}
+
 .nav--visible {
   visibility: visible;
   height: auto;
