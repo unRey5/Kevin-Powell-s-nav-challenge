@@ -40,7 +40,7 @@ h1 {
   text-transform: uppercase;
   color: #23424a;
   font-weight: 900;
-  background-color: #38cfd9;
+  background-color: #A59678;
   padding: 0.75em 2em;
   border-radius: 100px;
 }
@@ -59,7 +59,7 @@ h1 {
 }
 
 header {
-  background: #136c72;
+  background: #2E323F;
   padding: 1em 0;
   text-align: center;
 }
@@ -140,8 +140,8 @@ header {
 }
 
 .nav__list .nav__link--button {
-  color: #136c72;
-  background: #fff;
+  color: #fff;
+  background: #A59678;
   font-weight: 600;
   border-radius: 2rem;
   padding: 5px 20px;
@@ -167,7 +167,7 @@ header {
 
 .hero {
   padding: 100px 0;
-  background-color: #23424a;
+  background-color: #3B4050;
   color: #fff;
 }
 
@@ -178,6 +178,31 @@ header {
 .hero p {
   margin-bottom: 3em;
 }
+
+.hero_text_colorful {
+  color: #A59678;
+}
+
+.text_content {
+  text-align: center;
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+.text_content h3 {
+  color: #A59678;
+  font-size: 18px;
+}
+
+.maa {
+  margin-top: 3.5rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#maa{
+  background-color: rgb(244, 247, 249);
+}
+
 
 .main {
   margin-top: 3em;
@@ -197,12 +222,13 @@ header {
 
   .nav__list {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     margin: 0;
   }
 
   .nav__list--primary {
     margin-right: 150px;
+    margin-left: 100px;
   }
 
   .nav {
@@ -234,4 +260,13 @@ header {
   .sidebar {
     width: 32%;
   }
+
+  .maa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    
+  }
+
 }
